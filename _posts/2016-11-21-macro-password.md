@@ -15,11 +15,11 @@ tags:
   - "about-program"
 ---
 
-\[caption id="attachment\_661" align="aligncenter" width="1148"\]![Password-v1.00](images/Password-v1.00.png) Password-v1.00\[/caption\]
+\[caption id="attachment\_661" align="aligncenter" width="1148"\]![Password-v1.00](/assets/images/Password-v1.00.png) Password-v1.00\[/caption\]
 
 做了一个适合 3 系界面的密码宏，界面上只要一个输入框就好了，简洁轻松搞定。
 
-\[caption id="attachment\_662" align="aligncenter" width="648"\]![xPassword-v1.00](images/xPassword-v1.00.png) xPassword-v1.00\[/caption\]
+\[caption id="attachment\_662" align="aligncenter" width="648"\]![xPassword-v1.00](/assets/images/xPassword-v1.00.png) xPassword-v1.00\[/caption\]
 
 **测试环境：** Crestron Software:
 
