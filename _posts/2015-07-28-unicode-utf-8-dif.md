@@ -13,11 +13,11 @@ tags:
 
 ## 什么是 Unicode?
 
-历史上, 有两个独立的, 创立单一字符集的尝试. 一个是[国际标准化组织(ISO)](http://www.iso.ch/)的 ISO 10646 项目, 另一个是由(一开始大多是美国的)多语言软件制造商组成的协会组织的 [Unicode 项目](http://www.unicode.org/). 幸运的是, 1991年前后, 两个项目的参与者都认识到, 世界不需要两个不同的单一字符集. 它们合并双方的工作成果, 并为创立一个单一编码表而协同工作. 两个项目仍都存在并独立地公布各自的标准, 但 Unicode 协会和 ISO/IEC JTC1/SC2 都同意保持 Unicode 和 ISO 10646 标准的码表兼容, 并紧密地共同调整任何未来的扩展.
+历史上, 有两个独立的, 创立单一字符集的尝试. 一个是[国际标准化组织(ISO)](https://www.iso.ch/)的 ISO 10646 项目, 另一个是由(一开始大多是美国的)多语言软件制造商组成的协会组织的 [Unicode 项目](https://www.unicode.org/). 幸运的是, 1991年前后, 两个项目的参与者都认识到, 世界不需要两个不同的单一字符集. 它们合并双方的工作成果, 并为创立一个单一编码表而协同工作. 两个项目仍都存在并独立地公布各自的标准, 但 Unicode 协会和 ISO/IEC JTC1/SC2 都同意保持 Unicode 和 ISO 10646 标准的码表兼容, 并紧密地共同调整任何未来的扩展.
 
 ## Unicode vs ISO 10646
 
-Unicode 协会公布的 [Unicode 标准](http://www.unicode.org/unicode/standard/standard.html) 严密地包含了 ISO 10646-1 实现级别3的基本多语言面. **在两个标准里所有的字符都在相同的位置并且有相同的名字**.
+Unicode 协会公布的 [Unicode 标准](https://www.unicode.org/unicode/standard/standard.html) 严密地包含了 ISO 10646-1 实现级别3的基本多语言面. **在两个标准里所有的字符都在相同的位置并且有相同的名字**.
 
 Unicode 标准**额外**定义了许多与字符有关的语义符号学, 一般而言是对于实现高质量的印刷出版系统的更好的参考. Unicode 详细说明了绘制某些语言(比如阿拉伯语)表达形式的算法, 处理双向文字(比如拉丁与希伯来文混合文字)的算法和 排序与字符串比较 所需的算法, 以及其他许多东西.
 
@@ -31,7 +31,7 @@ Unicode 标准**额外**定义了许多与字符有关的语义符号学, 一般
 
 **在 Unix 下使用 UCS-2 (或 UCS-4) 会导致非常严重的问题**. 用这些编码的字符串会包含一些特殊的字符, 比如 '\\0' 或 '/', 它们在 文件名和其他 C 库函数参数里都有特别的含义. 另外, 大多数使用 ASCII 文件的 UNIX 下的工具, 如果不进行重大修改是无法读取 16 位的字符的. 基于这些原因, 在文件名, 文本文件, 环境变量等地方, **UCS-2** 不适合作为**Unicode** 的外部编码.
 
-在 ISO 10646-1 [Annex R](http://www.cl.cam.ac.uk/~mgk25/ucs/ISO-10646-UTF-8.html) 和 [RFC 2279](ftp://ftp.funet.fi/mirrors/nic.nordu.net/rfc/rfc2279.txt) 里定义的 **UTF-8** 编码**没有**这些问题. **它是在 Unix 风格的操作系统下使用 Unicode 的明显的方法**.
+在 ISO 10646-1 [Annex R](https://www.cl.cam.ac.uk/~mgk25/ucs/ISO-10646-UTF-8.html) 和 [RFC 2279](ftp://ftp.funet.fi/mirrors/nic.nordu.net/rfc/rfc2279.txt) 里定义的 **UTF-8** 编码**没有**这些问题. **它是在 Unix 风格的操作系统下使用 Unicode 的明显的方法**.
 
 UTF-8 有一下特性:
 
@@ -66,4 +66,4 @@ xxx 的位置由字符编码数的二进制表示的位填入. 越靠右的 x �
 
 这种编码的官方名字拼写为 UTF-8, 其中 UTF 代表 **U**CS **T**ransformation **F**ormat. 请勿在任何文档中用其他名字 (比如 utf8 或 UTF\_8) 来表示 UTF-8, 当然除非你指的是一个变量名而不是这种编码本身.
 
-本文转自: [http://www.zeali.net/entry/86](http://www.zeali.net/entry/86)
+本文转自: [https://www.zeali.net/entry/86](https://www.zeali.net/entry/86)
