@@ -11,17 +11,17 @@ tags:
   - "教程"
 ---
 
-The [AirMedia (AM-100)](http://www.crestron.com/resources/product_and_programming_resources/catalogs_and_brochures/online_catalog/default.asp?jump=1&model=AM-100) is a device which allows users to present their HD content to projectors and displays using the existing IT infrastructure, without the hassle of connecting wires. It is a small network device with a single 10/100 megabit Ethernet port. Windows® and OS X® users can share their desktop by running a small application (no installation required). iOS® and AndroidTM users can also share Excel®, Word, PowerPoint®, PDF files, photos, and other content by using the free application available in the App Store and in Google Play.
+The [AirMedia (AM-100)](https://www.crestron.com/resources/product_and_programming_resources/catalogs_and_brochures/online_catalog/default.asp?jump=1&model=AM-100) is a device which allows users to present their HD content to projectors and displays using the existing IT infrastructure, without the hassle of connecting wires. It is a small network device with a single 10/100 megabit Ethernet port. Windows® and OS X® users can share their desktop by running a small application (no installation required). iOS® and AndroidTM users can also share Excel®, Word, PowerPoint®, PDF files, photos, and other content by using the free application available in the App Store and in Google Play.
 
 \[caption id="attachment\_445" align="aligncenter" width="1024"\]![airmedia](/assets/images/airmedia.png) AirMedia Composite\[/caption\]
 
-[AirMedia Deployment Guide](http://www.crestron.com/downloads/pdf/product_misc/de_airmedia.pdf)  (PDF 999K) This is a MUST read which explains in detail, How you manage who can & ways to connect, all the portable devices that can be used, complete Device On Screen Display (OSD) Administration, Network/ Bandwidth data and Firewall Rules and Ports used.
+[AirMedia Deployment Guide](https://www.crestron.com/downloads/pdf/product_misc/de_airmedia.pdf)  (PDF 999K) This is a MUST read which explains in detail, How you manage who can & ways to connect, all the portable devices that can be used, complete Device On Screen Display (OSD) Administration, Network/ Bandwidth data and Firewall Rules and Ports used.
 
-[AirMedia Quick Start Guide](http://www.crestron.com/downloads/pdf/product_misc/qs_am-100.pdf) (PDF 3.21M) Everything is here covering what you need to know to get up and running in minutes.
+[AirMedia Quick Start Guide](https://www.crestron.com/downloads/pdf/product_misc/qs_am-100.pdf) (PDF 3.21M) Everything is here covering what you need to know to get up and running in minutes.
 
-[AirMedia Manual](http://www.crestron.com/downloads/pdf/product_manuals/og_am-100.pdf)  (PDF 1.8M) This manual covers it all. For the individual that needs more. Need to know what
+[AirMedia Manual](https://www.crestron.com/downloads/pdf/product_manuals/og_am-100.pdf)  (PDF 1.8M) This manual covers it all. For the individual that needs more. Need to know what
 
-[AirMedia Technical Specifications](http://www.crestron.com/resources/product_and_programming_resources/catalogs_and_brochures/online_catalog/default.asp?jump=1&model=AM-100&tab=specifications) Get the latest list of supported output resolutions, audio types supported and so much more [AirMedia OSD Graphics](http://support.crestron.com/ci/fattach/get/180506/0/filename/AirMedia+OSD+Graphics.zip) Background AM-100 graphic at 1280x800, 1600x1000, and 1920x900.
+[AirMedia Technical Specifications](https://www.crestron.com/resources/product_and_programming_resources/catalogs_and_brochures/online_catalog/default.asp?jump=1&model=AM-100&tab=specifications) Get the latest list of supported output resolutions, audio types supported and so much more [AirMedia OSD Graphics](https://support.crestron.com/ci/fattach/get/180506/0/filename/AirMedia+OSD+Graphics.zip) Background AM-100 graphic at 1280x800, 1600x1000, and 1920x900.
 
 AirMedia App Questions: Does the AirMedia app send content to other apps such as Twitter or FaceBook? The AirMedia app does not send information to other apps. There are no plans to allow this behavior in the future.
 
@@ -35,11 +35,11 @@ What development language was used for the AirMedia client application? The AirM
 
 Are AirMedia client/server communications encrypted? Yes, using a proprietary encryption method whose key is based on the code in the room.
 
-Does AirMedia cache any of the transmitted data into memory? Yes. Please see the [AM-100 Statement of Volatility](http://support.crestron.com/ci/fattach/get/218495/0/filename/SoV_AM-100.pdf).
+Does AirMedia cache any of the transmitted data into memory? Yes. Please see the [AM-100 Statement of Volatility](https://support.crestron.com/ci/fattach/get/218495/0/filename/SoV_AM-100.pdf).
 
 Can AirMedia be securely wiped, insuring that no cached information can be retrieved from the unit? All AirMedia cached data is stored in volatile RAM. Once removed from power, any cached information will be lost.
 
-[AirMedia Manual](http://www.crestron.com/downloads/pdf/product_manuals/og_am-100.pdf) **The following PASSCODE options are available.** This is found under the "Device Administration"**Random** - A new 4 digit code is generated for each session. When the last connected presenter disconnects, that session is over and a new code is generated for the next session - This is the default setting **Use The Following** - A fixed code that does not change after each session **Disabled** - Open access with no access code required. If you have the IP Address or Hostname, you can connect **From SimplWindows** - The passcode can be sent from the SimplWindows program. Please see page 4 of the [AirMedia Deployment Guide](http://www.crestron.com/downloads/pdf/product_misc/de_airmedia.pdf)  (PDF 999K)
+[AirMedia Manual](https://www.crestron.com/downloads/pdf/product_manuals/og_am-100.pdf) **The following PASSCODE options are available.** This is found under the "Device Administration"**Random** - A new 4 digit code is generated for each session. When the last connected presenter disconnects, that session is over and a new code is generated for the next session - This is the default setting **Use The Following** - A fixed code that does not change after each session **Disabled** - Open access with no access code required. If you have the IP Address or Hostname, you can connect **From SimplWindows** - The passcode can be sent from the SimplWindows program. Please see page 4 of the [AirMedia Deployment Guide](https://www.crestron.com/downloads/pdf/product_misc/de_airmedia.pdf)  (PDF 999K)
 
 **Can have up to 32 devices** connected and ready to share. Can have up to 4 (quad view) displayed simultaneously.
 
@@ -49,7 +49,7 @@ Can AirMedia be securely wiped, insuring that no cached information can be retri
 
 **Changing the Welcome Screen Logo image**. This is done within the AirMedia's OSD. Select the OSD Setup tab to upload your image. **Note:** Image must be a .jpeg, max file size 510KB **Support for multiple Air Media devices.** Currently a device can only connect to 1 Air Media unit at a time. A small control app is download from the unit to provide control of it. Future development to allow connecting to mulitple units is in process.
 
-[Crestron Connected Display](http://www.crestron.com/products/crestron_connected). When paired with AirMedia, the display can turn on when a User connects and shutting it down later after the last user disconnects. **How to access the OSD**. Open a web browser and navigate to the AM-100's IP Address. Select "Device Administration" located in the top right. **Note:** Default password is admin
+[Crestron Connected Display](https://www.crestron.com/products/crestron_connected). When paired with AirMedia, the display can turn on when a User connects and shutting it down later after the last user disconnects. **How to access the OSD**. Open a web browser and navigate to the AM-100's IP Address. Select "Device Administration" located in the top right. **Note:** Default password is admin
 
 **How to restore to factory defaults.** There are 2 ways to restore to Factory Defaults.**If the IP Address of the AM**\-100 is known then a select "Reset to Default" within the **OSD menu.** The default static IP address of the AM-100 is 192.168.100.10. **IP Address of the AM**\-100 is not known There is a reset button on the bottom near the screw holes for the bracket. Remove power from the AM-100 Depress the RESET button Restore power to the AM-100 Wait for power LED to go green (about 30 seconds) Release the RESET button Power cycle the device. The AM-100 should now be reset back to factory default settings with DHCP enabled
 
@@ -67,7 +67,7 @@ Can AirMedia be securely wiped, insuring that no cached information can be retri
 
 **Does the AM**\-100 work with PowerPoints created by Keynote? PowerPoint presentations created by Keynote are not supported. A workaround is to re-save the presentation with Microsoft PowerPoint or convert the Keynote PowerPoint to a PDF."
 
-**How to disable the built-in DHCP serve****r? • Right click and save the configuration file to your desktop: [am](http://support.crestron.com/ci/fattach/get/221439/0/filename/am-100_dhcp_server_off.conf)**[\-100\_dhcp\_server\_off.conf](http://support.crestron.com/ci/fattach/get/221439/0/filename/am-100_dhcp_server_off.conf) (55 bytes) • Load the downloaded configuration file to the AirMedia via the 'System Configuration' section of the AM-100 web interface. • Once completed, the DHCP server will no longer be running on the AM-100.
+**How to disable the built-in DHCP serve****r? • Right click and save the configuration file to your desktop: [am](https://support.crestron.com/ci/fattach/get/221439/0/filename/am-100_dhcp_server_off.conf)**[\-100\_dhcp\_server\_off.conf](https://support.crestron.com/ci/fattach/get/221439/0/filename/am-100_dhcp_server_off.conf) (55 bytes) • Load the downloaded configuration file to the AirMedia via the 'System Configuration' section of the AM-100 web interface. • Once completed, the DHCP server will no longer be running on the AM-100.
 
 Known Issues:
 

@@ -13,7 +13,7 @@ tags:
 
 \[caption id="attachment\_619" align="aligncenter" width="700"\]![快思聪的最新手机应用程序及云端企业管理系统助企业优化关键资产和提高生产力](/assets/images/unnamed.jpg) 快思聪的最新手机应用程序及云端企业管理系统助企业优化关键资产和提高生产力\[/caption\]
 
-快思聪展示了最新的企业管理系统—[Crestron Fusion® Cloud](http://www.crestron.com/products/line/fusion-enterprise-monitor-management-av-bms-room-scheduling-lighting-lights-shades-hvac-climate)，及崭新的[Crestron PinPoint™](http://www.crestron.com/products/line/room-scheduling-workflow-optimization-wireless-presentation-proximity-detection)个人手机应用程序两个技术方案，它们可连手解决涉及欠缺效率的会议，以解决因未被使用、未获充分利用及被滥用的会议空间所衍生的成本问题，协助员工更聪明、快捷、高效地工作，使企业能够优化其最宝贵的资产：员工、空间和技术。
+快思聪展示了最新的企业管理系统—[Crestron Fusion® Cloud](https://www.crestron.com/products/line/fusion-enterprise-monitor-management-av-bms-room-scheduling-lighting-lights-shades-hvac-climate)，及崭新的[Crestron PinPoint™](https://www.crestron.com/products/line/room-scheduling-workflow-optimization-wireless-presentation-proximity-detection)个人手机应用程序两个技术方案，它们可连手解决涉及欠缺效率的会议，以解决因未被使用、未获充分利用及被滥用的会议空间所衍生的成本问题，协助员工更聪明、快捷、高效地工作，使企业能够优化其最宝贵的资产：员工、空间和技术。
 
 **应对欠缺效率的会议和资源浪费问题** 据估计，企业组织每年因欠缺效率的会议而耗资370亿美元。问题的成因源于会议室的实际使用率，以及在会议开始时平均有10分钟延迟的通病。基于大型机构每天均有数以百千计的会议举行，而这些会议往往占据了员工85％的时间，当中任何牵涉时间安排、音响视像设备以至安装设置的障碍都足以妨碍会议的顺利进行，而会议空间的不适当使用亦会进一步降低企业的生产率和浪费资源。
 

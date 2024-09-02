@@ -117,7 +117,7 @@ UPnP（Universal Plug and Play），通用即插即用，是一组协议的统�
 
 以BC为例，成功添加UPnP功能后，在“全局日志”中我们会看到类似下面的几行：
 
-Windows XP UPnP Status: Found WAN Connection Device\[Linksys Inc.\] \[http://www.linksys.com/\] Windows XP UPnP Status: WAN IP: 218.30.\*.\* Windows XP UPnP Status: Port Mapping Existed!
+Windows XP UPnP Status: Found WAN Connection Device\[Linksys Inc.\] \[https://www.linksys.com/\] Windows XP UPnP Status: WAN IP: 218.30.\*.\* Windows XP UPnP Status: Port Mapping Existed!
 
 此时我们用BC进行下载，如果用户列表中有“远程”，或者用电骡eMule连接服务器后显示为高ID，那么就大功告成了！
 
@@ -133,6 +133,6 @@ QQ是用UDP的方式，通过UDP服务器来实现音视频以及文件的传输
 
  
 
-本文来自：[电脑软硬件应用网](http://www.45it.com/)
+本文来自：[电脑软硬件应用网](https://www.45it.com/)
 
-原文链接：[P2P端口映射UPnP功能和使用详解](http://www.45it.com/www/200612/14195.htm)
+原文链接：[P2P端口映射UPnP功能和使用详解](https://www.45it.com/www/200612/14195.htm)

@@ -30,7 +30,7 @@ tags:
 
 然后, 你需要保持网络畅通. 然后的然后, 目前转换的服务器是本网站.
 
-程序下载: 百度网盘: [http://pan.baidu.com/s/1qWzd9O4](http://pan.baidu.com/s/1qWzd9O4) 提取码：l86u
+程序下载: 百度网盘: [https://pan.baidu.com/s/1qWzd9O4](https://pan.baidu.com/s/1qWzd9O4) 提取码：l86u
 
 如果你有下载试用,  可以在留言栏里面反馈,  或是发邮件到 \[email\]support@apcube.com\[/email\].
 

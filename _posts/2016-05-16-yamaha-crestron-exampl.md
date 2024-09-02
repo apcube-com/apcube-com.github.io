@@ -33,6 +33,6 @@ MIDI 控制可能需要第三方的一些设备：
 
 > **YamahaCA\_Crestron\_ExampleV1.0\_Programming.zip** _SIMPL Windows files for compiling and uploading to the processor. Written for PRO2._ **YamahaCA\_Crestron\_ExampleV1.0\_TP.zip** _Files for uploading to the touch panel. Written for TPS-12W. Also supports an XPanel._ **YamahaCA\_Crestron\_ExampleV1.0\_DynamicContentRev1.2.zip** _Language and image files. Transfer using File Manager in the Toolbox application to the_ _processor._ **YamahaCA\_Crestron\_ExampleV1.0\_YamahaDevices.zip** _Studio manager files for mixers, and configuration files for DME processors and IMX644_ _installation mixer._ **YamahaCA\_Crestron\_ExampleV1.0\_SetupGuide.pdf**
 
-[官网协议下载页面](http://www.yamahaproaudio.com/downloads/documents/index.html)
+[官网协议下载页面](https://www.yamahaproaudio.com/downloads/documents/index.html)
 
-文件下载： 360 网盘：https://yunpan.cn/cSZavx4bizZxu 提取码 9fcf 百度网盘：http://pan.baidu.com/s/1sl8BarV 密码：930k 官网：http://www.yamahaproaudio.com/global/en/downloads/systemdesign/open\_protocol\_spec/
+文件下载： 360 网盘：https://yunpan.cn/cSZavx4bizZxu 提取码 9fcf 百度网盘：https://pan.baidu.com/s/1sl8BarV 密码：930k 官网：https://www.yamahaproaudio.com/global/en/downloads/systemdesign/open\_protocol\_spec/

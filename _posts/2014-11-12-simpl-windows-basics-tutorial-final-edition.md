@@ -31,4 +31,4 @@ tags:
 
 SIMPL windows 提供了大量各种各样的函数，可以用来实现所有可能的实际应用，当对 SIMPL windows 变得精通后您就能知道对同一控制问题我们有多种方式来解决，这使得程序更具灵活性及扩展性。
 
-下载  [快思聪 SIMPL Windows 编程语言 初级教程](http://pan.baidu.com/s/1s8Ll0 "SIMPL Windows基础教程 - 最终版")
+下载  [快思聪 SIMPL Windows 编程语言 初级教程](https://pan.baidu.com/s/1s8Ll0 "SIMPL Windows基础教程 - 最终版")
