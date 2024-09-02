@@ -13,7 +13,7 @@ tags:
   - "about-program"
 ---
 
-\[caption id="attachment\_654" align="aligncenter" width="847"\]![DelayAction_v1.1](images/delayaction_v1.1.png) DelayAction\_v1.1\[/caption\]
+\[caption id="attachment\_654" align="aligncenter" width="847"\]![DelayAction_v1.1](/assets/images/delayaction_v1.1.png) DelayAction\_v1.1\[/caption\]
 
 一个延时操作的宏，输入信号触发时，Action 输出脉冲信号，输入信号结束时，延时 Delay-Time-1 输出脉冲信号 Delay-Action-Step-1 ，延时 Delay-Time-2 ，输出脉冲信号 \[Delay-Action-Step-2\]。
 

@@ -17,7 +17,7 @@ tags:
 
 **CRC 校验计算器 CRC-Calculator**
 
-\[caption id="attachment\_599" align="aligncenter" width="528"\]![CRC-Calculator-v1.00](images/CRC-Calculator-v1.00.png) CRC-Calculator-v1.00\[/caption\]
+\[caption id="attachment\_599" align="aligncenter" width="528"\]![CRC-Calculator-v1.00](/assets/images/CRC-Calculator-v1.00.png) CRC-Calculator-v1.00\[/caption\]
 
 **功能：**
 

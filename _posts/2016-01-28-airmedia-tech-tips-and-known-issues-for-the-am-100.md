@@ -13,7 +13,7 @@ tags:
 
 The [AirMedia (AM-100)](http://www.crestron.com/resources/product_and_programming_resources/catalogs_and_brochures/online_catalog/default.asp?jump=1&model=AM-100) is a device which allows users to present their HD content to projectors and displays using the existing IT infrastructure, without the hassle of connecting wires. It is a small network device with a single 10/100 megabit Ethernet port. Windows® and OS X® users can share their desktop by running a small application (no installation required). iOS® and AndroidTM users can also share Excel®, Word, PowerPoint®, PDF files, photos, and other content by using the free application available in the App Store and in Google Play.
 
-\[caption id="attachment\_445" align="aligncenter" width="1024"\][![airmedia](images/airmedia.png)](http://www.apcube.com/wp-content/uploads/2016/01/airmedia.png) AirMedia Composite\[/caption\]
+\[caption id="attachment\_445" align="aligncenter" width="1024"\]![airmedia](/assets/images/airmedia.png) AirMedia Composite\[/caption\]
 
 [AirMedia Deployment Guide](http://www.crestron.com/downloads/pdf/product_misc/de_airmedia.pdf)  (PDF 999K) This is a MUST read which explains in detail, How you manage who can & ways to connect, all the portable devices that can be used, complete Device On Screen Display (OSD) Administration, Network/ Bandwidth data and Firewall Rules and Ports used.
 

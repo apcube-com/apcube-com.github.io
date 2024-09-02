@@ -17,4 +17,4 @@ Linode 推广码 : [a86eac656f5563b6dfd5da0f704b49822936d133](https://www.linod
 
 当然我也可以帮你折腾各种姿势... XD ...
 
-需要帮忙的话也可以找我: \[email\]support@apcube.com\[/email\] 或 \[email\]so@sber.xyz\[/email\] .
+需要帮忙的话也可以找我: \[email\]support@apcube.com\[/email\]  .

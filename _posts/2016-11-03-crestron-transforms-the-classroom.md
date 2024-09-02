@@ -8,7 +8,7 @@ tags:
   - "new-products"
 ---
 
-\[caption id="attachment\_650" align="aligncenter" width="250"\]![Crestron Transforms the Classroom into a Dynamic Learning Environment](images/image007.jpg) Crestron Transforms the Classroom into a Dynamic Learning Environment\[/caption\]
+\[caption id="attachment\_650" align="aligncenter" width="250"\]![Crestron Transforms the Classroom into a Dynamic Learning Environment](/assets/images/image007.jpg) Crestron Transforms the Classroom into a Dynamic Learning Environment\[/caption\]
 
 快思聪正在向高等教育领域的信息科技专业人员及技术提供商展示「如何有效运用每个学习空间」的智能解决方案。他们将体验到如何透过使用尖端的快思聪解决方案把教室转变为具互动性、协作性和易于使用的动态学习环境。
 

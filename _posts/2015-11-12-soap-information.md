@@ -34,7 +34,7 @@ SOAP由Dave Winer, Don Box，Bob Atkinson, Mohsen Al-Ghosein於1998年设计，�
 
 * * *
 
-[![soap](images/soap.png)](http://www.apcube.com/wp-content/uploads/2015/11/soap.png)
+![soap](/assets/images/soap.png)
 
 SOAP使用因特网应用层协议作为其传输协议。SMTP以及HTTP协议都可以用来传输SOAP消息，但是由于HTTP在如今的因特网结构中工作得很好，特别是在网络防火墙下仍然正常工作，所以被广泛采纳。SOAP亦可以在HTTPS上传输。
 

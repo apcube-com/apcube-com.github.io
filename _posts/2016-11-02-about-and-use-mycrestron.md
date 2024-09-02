@@ -24,21 +24,21 @@ tags:
 
 首先，你得有 [Crestron 官网](http://crestron.com) 的帐户，目前我也并不清楚不具备经销商编号及员工编号的帐户能不能申请，如果你没有，那么可以试一下。
 
-1，登录帐户，然后点开右上角的 PRO PANEL: \[caption id="attachment\_641" align="aligncenter" width="1348"\]![PRO PANEL](images/myCrestron-ProPanel.png) PRO PANEL\[/caption\]
+1，登录帐户，然后点开右上角的 PRO PANEL: \[caption id="attachment\_641" align="aligncenter" width="1348"\]![PRO PANEL](/assets/images/myCrestron-ProPanel.png) PRO PANEL\[/caption\]
 
-2，找到 [MyCrestron.com Dynamic DNS](http://crestron.com/resources/design-install-tools/my-crestron-dynamic-dns-ddns) ，并打开，页面往下： \[caption id="attachment\_642" align="aligncenter" width="1012"\]![myCrestron Search/Manage Domain](images/myCrestron-RegBotton.png) myCrestron Search/Manage Domain\[/caption\]
+2，找到 [MyCrestron.com Dynamic DNS](http://crestron.com/resources/design-install-tools/my-crestron-dynamic-dns-ddns) ，并打开，页面往下： \[caption id="attachment\_642" align="aligncenter" width="1012"\]![myCrestron Search/Manage Domain](/assets/images/myCrestron-RegBotton.png) myCrestron Search/Manage Domain\[/caption\]
 
-3，域名注册页面： \[caption id="attachment\_643" align="aligncenter" width="760"\]![myCrestron Add a new Subdomain](images/myCrestron-RegForm.png) myCrestron Add a new Subdomain\[/caption\]
+3，域名注册页面： \[caption id="attachment\_643" align="aligncenter" width="760"\]![myCrestron Add a new Subdomain](/assets/images/myCrestron-RegForm.png) myCrestron Add a new Subdomain\[/caption\]
 
 填入相关信息，提交，就完成注册了，可以在 Registered Dynamic DNS 列表上看到你刚刚注册的域名了，正常就是列表的第一个。
 
 **怎么使用呢？**
 
-1，下载 DEMO 程序，（我没有，我要[下载](https://dailyuploads.net/z4f0yn571v4u)），并打开。 2，打开 S-1.1:Crestron Name Resolution Interface v1\_0\_2(cm) ，修改 Domain 及 Password 为你注册时填的信息。 \[caption id="attachment\_644" align="aligncenter" width="570"\]![Crestron Name Resolution Interface](images/Crestron-Name-Resolution-Interface.png) Crestron Name Resolution Interface\[/caption\]
+1，下载 DEMO 程序，（我没有，我要[下载](https://dailyuploads.net/z4f0yn571v4u)），并打开。 2，打开 S-1.1:Crestron Name Resolution Interface v1\_0\_2(cm) ，修改 Domain 及 Password 为你注册时填的信息。 \[caption id="attachment\_644" align="aligncenter" width="570"\]![Crestron Name Resolution Interface](/assets/images/Crestron-Name-Resolution-Interface.png) Crestron Name Resolution Interface\[/caption\]
 
 3，主机请自行更换为你当前使用的主机型号，怎么更换就不提了。 4，按 F12 编译程序，并上传到主机就完成了。 5，可以用 toolbox 的 Simpl Debugger 看看有没有注册上，也可以到 myCrestron 页面查看，如果注册上了会在你申请的域名下面列出主机注册的 IP 地址。
 
-**测试连接** 在 [myCrestron](http://crestron.com/resources/design-install-tools/my-crestron-dynamic-dns-ddns/) 页面的 Registered Dynamic DNS 列表中点击你域名，然后找到 Utilities 进行测试。 \[caption id="attachment\_645" align="aligncenter" width="549"\]![myCrestron Utilities](images/myCrestron-Utilities.png) myCrestron Utilities\[/caption\]
+**测试连接** 在 [myCrestron](http://crestron.com/resources/design-install-tools/my-crestron-dynamic-dns-ddns/) 页面的 Registered Dynamic DNS 列表中点击你域名，然后找到 Utilities 进行测试。 \[caption id="attachment\_645" align="aligncenter" width="549"\]![myCrestron Utilities](/assets/images/myCrestron-Utilities.png) myCrestron Utilities\[/caption\]
 
 选择端口，点击 Test Connection 进行测试。
 

@@ -18,7 +18,7 @@ tags:
 
 写程序的时候难免碰到需要给触摸屏发送字符, 那么肯定也不全是英文字符, 给触摸屏发送中文我想你可以看到那些我猜大概是它认识你你不认识它的字符吧, 怎么办呢? 那么转吧, 即然不认识就转成认识的吧.
 
-这时, 你可能需要这个程序(宏: UTF8-Convertor-Online)来帮你解决问题, 程序截图: [![UTF8-Convertor-Online](images/UTF8-Convertor-Online.png)](http://www.apcube.com/wp-content/uploads/2015/08/UTF8-Convertor-Online.png)
+这时, 你可能需要这个程序(宏: UTF8-Convertor-Online)来帮你解决问题, 程序截图: ![UTF8-Convertor-Online](images/UTF8-Convertor-Online.png)
 
 支持 999 个信号输入输出. 她能做什么呢?
 

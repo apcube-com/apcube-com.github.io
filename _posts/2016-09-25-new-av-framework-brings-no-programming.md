@@ -11,7 +11,7 @@ tags:
   - "smart-graphics"
 ---
 
-\[caption id="attachment\_623" align="aligncenter" width="945"\]![全新的.AV Framework™软件无需编程](images/image006.jpg) 全新的.AV Framework™软件无需编程\[/caption\]
+\[caption id="attachment\_623" align="aligncenter" width="945"\]![全新的.AV Framework™软件无需编程](/assets/images/image006.jpg) 全新的.AV Framework™软件无需编程\[/caption\]
 
 快思聪宣布推出全新的[.AV Framework™](http://www.crestron.com/products/line/intelligent-enterprise-av-framework) 软件，使您无需自定编程即可部署功能强大的演示系统。.AV Framework强大的设置能力开箱即用，包括自动切换，通过快思聪[Connect It™](http://www.crestron.com/products/model/tt-100) 接线盒实现即插即用连接，以及通过CEC器材控制连接系统进行自动显示的开/关。只要简单使用.AV Framework基于Web的工具就能添加自定义的功能，使用传感器、触摸屏、网络部署，无需编写代码或设计图形用户界面。所有最新的DMPS3系列演示系统都预装了全新的.AV Framework技术。
 

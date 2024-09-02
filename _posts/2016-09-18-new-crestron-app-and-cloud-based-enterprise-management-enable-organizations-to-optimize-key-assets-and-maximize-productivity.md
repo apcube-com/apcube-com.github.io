@@ -11,7 +11,7 @@ tags:
   - "pinpoint"
 ---
 
-\[caption id="attachment\_619" align="aligncenter" width="700"\]![快思聪的最新手机应用程序及云端企业管理系统助企业优化关键资产和提高生产力](images/unnamed.jpg) 快思聪的最新手机应用程序及云端企业管理系统助企业优化关键资产和提高生产力\[/caption\]
+\[caption id="attachment\_619" align="aligncenter" width="700"\]![快思聪的最新手机应用程序及云端企业管理系统助企业优化关键资产和提高生产力](/assets/images/unnamed.jpg) 快思聪的最新手机应用程序及云端企业管理系统助企业优化关键资产和提高生产力\[/caption\]
 
 快思聪展示了最新的企业管理系统—[Crestron Fusion® Cloud](http://www.crestron.com/products/line/fusion-enterprise-monitor-management-av-bms-room-scheduling-lighting-lights-shades-hvac-climate)，及崭新的[Crestron PinPoint™](http://www.crestron.com/products/line/room-scheduling-workflow-optimization-wireless-presentation-proximity-detection)个人手机应用程序两个技术方案，它们可连手解决涉及欠缺效率的会议，以解决因未被使用、未获充分利用及被滥用的会议空间所衍生的成本问题，协助员工更聪明、快捷、高效地工作，使企业能够优化其最宝贵的资产：员工、空间和技术。
 

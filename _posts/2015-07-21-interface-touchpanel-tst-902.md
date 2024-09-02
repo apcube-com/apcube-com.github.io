@@ -12,7 +12,7 @@ tags:
 
 快思聪宣布最新的TST-902 8.9吋触摸屏正式上架。快思聪将TSW系列的众多功能融合到TST-902，提供更稳定的无线控制体验。每一部9吋的电容式无线触摸屏皆由强大的Smart Graphics™支持，代表着可靠丶安全的无线控制以及一致丶直观的使用者体验。TST\-902通过优先选用ER无线通信来进行控制以减少使用Wi-Fi®。
 
-\[caption id="attachment\_448" align="aligncenter" width="373"\][![快思聪TST-902无线触摸屏](images/TS-902-desk.png)](http://www.apcube.com/wp-content/uploads/2015/07/TS-902-desk.png) 快思聪TST-902无线触摸屏\[/caption\] **9****吋无线触摸屏上的专业控制**
+\[caption id="attachment\_448" align="aligncenter" width="373"\]![快思聪TST-902无线触摸屏](/assets/images/TS-902-desk.png) 快思聪TST-902无线触摸屏\[/caption\] **9****吋无线触摸屏上的专业控制**
 
 TST-902用上快思聪独有的Smart Graphics，演绎出多个鲜明夺目的介面。电容式超明亮宽萤幕显示丶H.264串流视讯技术配上超薄边框绝对能带来巧妙绝伦的崭新体验。
 
