@@ -14,19 +14,19 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: apcube # the main title
+title: SBER.US # the main title
 
-tagline: Walking On the World. # it will display as the subtitle
+tagline: Living On the World. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Crestron, AMX, RTI, Helvar and More.
+  有关生活的点滴.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: ""
 
 github:
-  username: apcube-com # change to your GitHub username
+  username: doobom # change to your GitHub username
 
 twitter:
   username: d8boom # change to your Twitter username
@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: ng
-  email: ng@apcube.com # change to your email address
+  email: ng@sber.us # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/d8boom # change to your Twitter homepage
@@ -119,13 +119,13 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
+    repo: doobom/only_comments # <gh-username>/<repo>
+    repo_id: R_kgDOMsBjSg
+    category: sber.us's comments
+    category_id: DIC_kwDOMsBjSs4CiKaR
+    mapping: title # optional, default to 'pathname'
     strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
+    input_position: top # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
