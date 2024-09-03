@@ -17,7 +17,9 @@ tags:
 
 沃通颁发的 ECC 证书是经过特殊处理的，猜测是采用了传说中的双证书。
 
-\[caption id="attachment\_106" align="aligncenter" width="298"\]![ECC证书](images/ecccert.png) ECC证书\[/caption\]
+![ECC证书](/assets/images/ecccert.png) 
+
+ECC证书
 
 所以支持上述系统。实测 ECC 的性能消耗跟加密程度一样强悍，384 位的 ECC 给 CPU 造成的压力和 3000 位左右的 RSA 一样，那要是 4096 位的 ECC，那效果，简直爆炸。
 
@@ -42,7 +44,7 @@ openssl ecparam -genkey -name secp384r1 -out private-ecc.key
 openssl req -new -sha384 -key private-ecc.key -out www_pupboss_com.csr
 ```
 
-secp384r1 是一个曲线名，openssl ecparam -list\_curves 可以看所有的曲线名。
+`secp384r1` 是一个曲线名，`openssl ecparam -list_curves` 可以看所有的曲线名。
 
 经过测试，
 
@@ -50,18 +52,20 @@ CSR 的 SHA1 加密不影响生成的证书用 SHA256 加密！ CSR 的 SHA1 加
 
 申请完 SSL 证书，应该有以下几样东西
 
-- private.key 私钥
-- cert.csr CSR
-- www\_pupboss.crt 公钥
-- xxxx.crt 证书商的中级证书和根证书
+- `private.key` 私钥
+- `cert.csr` CSR
+- `www_pupboss.crt` 公钥
+- `xxxx.crt` 证书商的中级证书和根证书
 
 首先把证书商提供的根证书中级证书添加到自己的证书后面，不然有的浏览器可能报错，我的习惯是域名证书 + 中级证书 + 根证书，别的顺序不知道行不行。 当然这些是最初级的，下面来点高级的东西，先上臭美图两张：
 
 现在服务器采用了 SNI 技术，安装了多个 SSL 证书，所以 chrome 下会有黄色警告
 
-\[caption id="attachment\_107" align="aligncenter" width="321"\]![已使用证书 Chrome 浏览器显示结果](images/safessl01.png) 已使用证书 Chrome 浏览器显示结果\[/caption\]
+![已使用证书 Chrome 浏览器显示结果](/assets/images/safessl01.png) 
 
-\[caption id="attachment\_108" align="aligncenter" width="600"\]![SSL Labs 测试结果](images/safessl02.png) SSL Labs 测试结果\[/caption\]
+已使用证书 Chrome 浏览器显示结果
+
+![SSL Labs 测试结果](/assets/images/safessl02.png) SSL Labs 测试结果
 
 测试地址：[SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=pupboss.com)
 
@@ -85,21 +89,21 @@ ssl_prefer_server_ciphers on;
 
 如果你的 OpenSSL 版本比较旧，不可用的加密算法会被自动丢弃。最好使用完整套件，让 OpenSSL 自动选择。所以套件的顺序就灰常重要
 
-- ECDHE+AESGCM 加密是首选的。它们是 TLS 1.2 加密算法，现在还没有广泛支持。当然也没有破解的方案。
-- PFS 加密套件好一些，首选 ECDHE，然后是 DHE。
-- AES 128 要好于 AES 256。AES 256 会造成更大的性能消耗，但是带来的安全提升是有限的。反之还能承受更大压力。
-- 在向后兼容的加密套件里面，AES 要优于 3DES。在 TLS 1.1及其以上，减轻了针对 AES 的野兽攻击（BEAST）的威胁，而在 TLS 1.0上则难以实现该攻击。在非向后兼容的加密套件里面，不支持 3DES。
-- RC4 整个不支持了。3DES 用来向后兼容。
+- `ECDHE+AESGCM` 加密是首选的。它们是 TLS 1.2 加密算法，现在还没有广泛支持。当然也没有破解的方案。
+- `PFS` 加密套件好一些，首选 `ECDHE`，然后是 `DHE`。
+- `AES 128` 要好于 `AES 256`。`AES 256` 会造成更大的性能消耗，但是带来的安全提升是有限的。反之还能承受更大压力。
+- 在向后兼容的加密套件里面，`AES` 要优于 `3DES`。在 TLS 1.1及其以上，减轻了针对 `AES` 的野兽攻击（BEAST）的威胁，而在 TLS 1.0上则难以实现该攻击。在非向后兼容的加密套件里面，不支持 `3DES`。
+- `RC4` 整个不支持了。`3DES` 用来向后兼容。
 
 **强制丢弃的算法**
 
-- aNULL 包含了非验证的 Diffie-Hellman 密钥交换，这会受到中间人（MITM）攻击
-- eNULL 包含了无加密的算法（明文）
-- EXPORT 是老旧的弱加密算法，是被美国法律标示为可出口的
-- RC4 包含使用了已弃用的 ARCFOUR 的加密算法
-- DES 包含使用了弃用的数据加密标准（DES）的加密算法
-- SSLv2 包含了定义在旧版本 SSL 标准中的所有算法，现已弃用
-- MD5 包含了使用已弃用的 MD5 的所有算法
+- `aNULL` 包含了非验证的 `Diffie-Hellman` 密钥交换，这会受到中间人（MITM）攻击
+- `eNULL` 包含了无加密的算法（明文）
+- `EXPORT` 是老旧的弱加密算法，是被美国法律标示为可出口的
+- `RC4` 包含使用了已弃用的 `ARCFOUR` 的加密算法
+- `DES` 包含使用了弃用的数据加密标准（`DES`）的加密算法
+- `SSLv2` 包含了定义在旧版本 SSL 标准中的所有算法，现已弃用
+- `MD5` 包含了使用已弃用的 `MD5` 的所有算法
 
 ## 前向安全性(Forward Secrecy)
 
@@ -124,7 +128,7 @@ This is going to take a long time
 
 当时这个命令，VPS 上单核执行了 100 分钟，我的电脑 i7 4750HQ 处理器，只能跑一个核，用了大概 70 分钟，VPS 上生成的 ..+... 字符数大概在 50000 个，我的电脑产生了 74900 多个，不知道什么原因
 
-以下内容来自 [@justwd](http://blog.justwd.net/) 的邮件：
+以下内容来自 [@justwd](https://blog.justwd.net/) 的邮件：
 
 > dhparam 算法是在 2^4096 个数字中找出两个质数，所以需要的时间挺长。..... 意思是有可能的质数，+ 是正在测试的质数，\* 是已经找到的质数。
 
@@ -153,7 +157,7 @@ resolver 223.5.5.5 223.6.6.6 valid=300s;(国内)
 resolver_timeout 10s;  
 ```
 
-domain.chain.pem 里面是域名证书到 ROOT 证书的一个链。
+`domain.chain.pem` 里面是域名证书到 ROOT 证书的一个链。
 
 连接到一个服务器时，客户端应该使用证书吊销列表（CRL）或在线证书状态协议（OCSP）记录来校验服务器证书的有效性。CRL 存在一个问题，它已经增长的太快，永远也下载不完。
 
@@ -210,11 +214,15 @@ server {
 openssl rsa -in pupboss.key -out pupboss_unsecure.key
 ```
 
-\[caption id="attachment\_109" align="aligncenter" width="600"\]![Start SSL](images/startssl01.jpg) Start SSL\[/caption\]
+![Start SSL](/assets/images/startssl01.jpg) 
+
+Start SSL
 
 上臭美图一张
 
-\[caption id="attachment\_110" align="aligncenter" width="538"\]![Start SSL](images/startssl03.png) Start SSL\[/caption\]
+![Start SSL](/assets/images/startssl03.png) 
+
+Start SSL
 
 ## 强制 HTTPS
 
@@ -231,8 +239,8 @@ server {
 
  
 
-本文采用 [知识共享署名 - 非商业性使用 - 相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/)进行许可。
-
-原文来自：[@{HOME: PUPBOSS};](https://www.pupboss.com/)
-
-原文链接：[Nginx 配置上更安全的 SSL & ECC 证书](https://www.pupboss.com/nginx-add-ssl/)
+> 本文采用 [知识共享署名 - 非商业性使用 - 相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-sa/4.0/)进行许可。
+>
+> 原文来自：[@{HOME: PUPBOSS};](https://www.pupboss.com/)
+>
+> 原文链接：[Nginx 配置上更安全的 SSL & ECC 证书](https://www.pupboss.com/nginx-add-ssl/)

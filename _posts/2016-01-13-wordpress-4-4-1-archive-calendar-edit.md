@@ -16,7 +16,7 @@ tags:
 
 * * *
 
-打开 WordPress 4.4.1 目录内的 /wp-includes/general-template.php 文件，定位到 1629 行。 可以看到原来显示格式为 2016年一月 的代码： `$text = sprintf( __( '%1$s %2$d' ), $wp_locale->get_month( $result->month ), $result->year );` 我要的格式是 2016/01 就改成了： `$text = sprintf( __('%1$d/%2$s'), $result->year, zeroise($result->month, 2));`
+打开 WordPress 4.4.1 目录内的 `/wp-includes/general-template.php` 文件，定位到 1629 行。 可以看到原来显示格式为 2016年一月 的代码： `$text = sprintf( __( '%1$s %2$d' ), $wp_locale->get_month( $result->month ), $result->year );` 我要的格式是 2016/01 就改成了： `$text = sprintf( __('%1$d/%2$s'), $result->year, zeroise($result->month, 2));`
 
 #### WordPress 4.4.1 站点日历年月格式修改
 

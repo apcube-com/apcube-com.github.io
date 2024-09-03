@@ -15,6 +15,8 @@ tags:
   - "漫步云端"
 ---
 
+[TOC]
+
 前些天，shadowsocks 提出了 SIP004 草案，旨在使用 AEAD 算法 取代原先的不安全的 流加密 + OTA，并弃用了一次性验证 (OTA)。
 
 新协议的提出对于 shadowsocks 是一个非常非常重大的改进，因此我写了这篇博文为看不懂洋文的朋友们科普一下「为什么 OTA 会被这么快弃用」以及「为什么要使用新协议」。
@@ -37,13 +39,17 @@ OTA（One Time Auth，[一次性验证](https://shadowsocks.org/en/spec/one-time
 
 原 shadowsocks 协议 的 TCP 握手包（加密后）的格式是这样的：
 
-`+-------+----------+ | IV | Payload | +-------+----------+ | Fixed | Variable | +-------+----------+` 其中的 IV（Initialization Vector, [初始化向量](https://zh.wikipedia.org/wiki/%E5%88%9D%E5%A7%8B%E5%90%91%E9%87%8F)）是使用随机数生成器生成的一个固定长度的输入值。通过引入 IV 能够使相同的明文和相同的密钥产生不同的密文，让攻击者难以对同一把密钥的密文进行破解。
+`+-------+----------+ | IV | Payload | +-------+----------+ | Fixed | Variable | +-------+----------+` 
+
+其中的 IV（Initialization Vector, [初始化向量](https://zh.wikipedia.org/wiki/%E5%88%9D%E5%A7%8B%E5%90%91%E9%87%8F)）是使用随机数生成器生成的一个固定长度的输入值。通过引入 IV 能够使相同的明文和相同的密钥产生不同的密文，让攻击者难以对同一把密钥的密文进行破解。
 
 shadowsocks 服务端会用这个 IV 和 pre-shared key（预共享密钥，通常是用户设置的密码）来解密 TCP 数据包中的 payload。
 
 解密后的内容格式如下：
 
-`+--------------+---------------------+------------------+----------+ | Address Type | Destination Address | Destination Port | Data | +--------------+---------------------+------------------+----------+ | 1 | Variable | 2 | Variable | +--------------+---------------------+------------------+----------+` 其中 Address Type (ATYP) 是地址类型，占一个字节，有三个可能的取值：01, 03, 04，分别对应 IPv4, hostname, IPv6 类型的地址。这些都是 [RFC1928](https://www.ietf.org/rfc/rfc1928.txt) 中定义的标准，有兴趣可以去看看。
+`+--------------+---------------------+------------------+----------+ | Address Type | Destination Address | Destination Port | Data | +--------------+---------------------+------------------+----------+ | 1 | Variable | 2 | Variable | +--------------+---------------------+------------------+----------+` 
+
+其中 Address Type (ATYP) 是地址类型，占一个字节，有三个可能的取值：01, 03, 04，分别对应 IPv4, hostname, IPv6 类型的地址。这些都是 [RFC1928](https://www.ietf.org/rfc/rfc1928.txt) 中定义的标准，有兴趣可以去看看。
 
 握手完成后 shadowsocks 中继就会工作在流模式下，后续的所有 TCP 数据包不会再带上 IV，而是使用握手时协商的那个 IV。
 
@@ -181,6 +187,6 @@ shadowsocks 原本就不是为「加速网络」而生的项目，它的初衷�
 
 `除另有声明外，本博客文章均采用 [知识共享(Creative Commons) 署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/) 进行许可。`
 
-本文转自： [https://blessing.studio/why-do-shadowsocks-deprecate-ota/](https://blessing.studio/why-do-shadowsocks-deprecate-ota/)
+> 本文转自： [https://blessing.studio/why-do-shadowsocks-deprecate-ota/](https://blessing.studio/why-do-shadowsocks-deprecate-ota/)
 
-`  稍微改了一下，改成了SS-OTA如何被爆菊。  顺便补充，OTA的攻击方法是breakwa11自2016年9月初发现的，所以那时候出了auth_sha1_v3和auth_sha1_v4协议，但v3没改完整，直接废弃了，所以剩下了v4协议。OTA的攻击方法可以应用于auth_sha1协议和auth_sha1_v2协议，但因为这两协议能抗重放攻击，相对影响小一些，但也不建议使用（所以很早就建议你们过渡到auth_sha1_v4或auth_aes128_*协议了，但依旧很多人不管哦貌似）。现在既然探测方法已经公开，那么auth_sha1及auth_sha1_v2均会从下个C#版本的协议列表上消失，面板上也将不能再选择，待iOS那边支持完善后，服务端也将彻底移除这两协议的支持。 再补充，其实auth_sha1_v4也没有安全到哪里去，依然存在攻击方法（你还真别以为len字段加了校验就安全了），但既然本身就是个兼容的协议，就没有这种必要再出什么v5协议还支持兼容了，兼容本身就不安全，尽量转到auth_aes128_*单端口多用户模式吧，既节省内存又防DPI且能和网站共存还能直接二级转发。你想想看，一个VPS大量开高位端口且不同端口连接的IP都不同，这么典型的特征完全是看有没有想法要干掉而已啊  **_来自 telegram shadowsocksr news 频道_**`
+> 稍微改了一下，改成了SS-OTA如何被爆菊。  顺便补充，OTA的攻击方法是breakwa11自2016年9月初发现的，所以那时候出了auth_sha1_v3和auth_sha1_v4协议，但v3没改完整，直接废弃了，所以剩下了v4协议。OTA的攻击方法可以应用于auth_sha1协议和auth_sha1_v2协议，但因为这两协议能抗重放攻击，相对影响小一些，但也不建议使用（所以很早就建议你们过渡到auth_sha1_v4或auth_aes128_*协议了，但依旧很多人不管哦貌似）。现在既然探测方法已经公开，那么auth_sha1及auth_sha1_v2均会从下个C#版本的协议列表上消失，面板上也将不能再选择，待iOS那边支持完善后，服务端也将彻底移除这两协议的支持。 再补充，其实auth_sha1_v4也没有安全到哪里去，依然存在攻击方法（你还真别以为len字段加了校验就安全了），但既然本身就是个兼容的协议，就没有这种必要再出什么v5协议还支持兼容了，兼容本身就不安全，尽量转到auth_aes128_*单端口多用户模式吧，既节省内存又防DPI且能和网站共存还能直接二级转发。你想想看，一个VPS大量开高位端口且不同端口连接的IP都不同，这么典型的特征完全是看有没有想法要干掉而已啊  **_来自 telegram shadowsocksr news 频道_**

@@ -9,6 +9,6 @@ tags:
 
 Hello World.
 
-[\-= SBer.US =-](http://www.sber.us)
+[\-= SBer.US =-](https://sber.us)
 
 @ 2015-12-19

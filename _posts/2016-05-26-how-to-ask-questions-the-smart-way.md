@@ -11,7 +11,9 @@ tags:
   - "漫步云端"
 ---
 
-#提问的智慧
+[TOC]
+
+# 提问的智慧
 
 **How To Ask Questions The Smart Way**
 
@@ -19,21 +21,21 @@ Copyright © 2001,2006,2014 Eric S. Raymond, Rick Moen
 
 本指南英文版版权为 Eric S. Raymond, Rick Moen 所有。
 
-原文网址:[http://www.catb.org/~esr/faqs/smart-questions.html](http://www.catb.org/~esr/faqs/smart-questions.html)
-
-Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
-
-本中文指南是基于原文 3.10 版以及 2010 年由 [Gasolin](https://github.com/gasolin) 所翻译版本的最新翻译；
-
-协助指出翻译问题，**请[发Issue](https://github.com/ryanhanwu/smartquestions/issues/new)，或直接[发Pull Request](https://github.com/ryanhanwu/smartquestions/compare/)给我。**
-
-项目地址： [https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
-
-本文另有简体中文版: [https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh\_CN.md](https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
-
-## [原文版本历史](https://github.com/ryanhanwu/smartquestions/blob/master/history.md)
-
-（本文ZeroNet版目录化由markdown-pp工具生成，具体看[这篇帖子](http://127.0.0.1:43110/gfwtalk.bit/?Topic:34_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ)，markdown源码在[这里](http://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/?13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1)）
+> 原文网址:[https://www.catb.org/~esr/faqs/smart-questions.html](https://www.catb.org/~esr/faqs/smart-questions.html)
+>
+> Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
+>
+> 本中文指南是基于原文 3.10 版以及 2010 年由 [Gasolin](https://github.com/gasolin) 所翻译版本的最新翻译；
+>
+> 协助指出翻译问题，**请[发Issue](https://github.com/ryanhanwu/smartquestions/issues/new)，或直接[发Pull Request](https://github.com/ryanhanwu/smartquestions/compare/)给我。**
+>
+> 项目地址： [https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
+>
+> 本文另有简体中文版: [https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh\_CN.md](https://github.com/FredWe/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
+> 
+> ## [原文版本历史](https://github.com/ryanhanwu/smartquestions/blob/master/history.md)
+>
+>（本文ZeroNet版目录化由markdown-pp工具生成，具体看[这篇帖子](https://127.0.0.1:43110/gfwtalk.bit/?Topic:34_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ)，markdown源码在[这里](https://127.0.0.1:43110/17iF64gTLycSohUSJsFyq7FMYsQfMqghJa/?13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ_1)）
 
 ## 目录
 
@@ -76,7 +78,7 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 - [11\. 相关资源](#11-)
 - [12\. 鸣谢](#12-)
 
-# 1\. 声明
+# 1. 声明
 
 许多项目在他们的使用协助/说明网页中链接了本指南，这么做很好，我们也鼓励大家都这么做。但如果你是负责管理这个项目网页的人，请在超链接附近的显着位置上注明：
 
@@ -86,9 +88,9 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 
 如果你是因为需要某些协助而正在阅读这本指南，并且最后离开是因为发现从本指南作者们身上得不到直接的协助，那么你就是我们所说的那些白痴之一。别问我们问题，我们只会忽略你。我们在这本指南中是教你如何从那些真正懂得你所遇到软件或硬件问题的人取得协助，而99%的情况下那不会是我们。除非你确定本指南的作者之一刚好是你所遇到的问题领域的专家，否则请不要打扰我们，这样大家都会开心一点。
 
-# 2\. 简介
+# 2. 简介
 
-在[黑客](http://www.catb.org/~esr/faqs/hacker-howto.html)的世界里，当你拋出一个技术问题时，最终是否能得到有用的回答，往往取决于你所提问和追问的方式。本指南将教你如何正确的提问以获得你满意的答案。
+在[黑客](https://www.catb.org/~esr/faqs/hacker-howto.html)的世界里，当你拋出一个技术问题时，最终是否能得到有用的回答，往往取决于你所提问和追问的方式。本指南将教你如何正确的提问以获得你满意的答案。
 
 不只是黑客，现在开放源代码（Open Source）软件已经相当盛行，你常常也可以由其他有经验的使用者身上得到好答案，这是件**_好事_**；使用者比起黑客来，往往对那些新手常遇到的问题更宽容一些。然而，将有经验的使用者视为黑客，并采用本指南所提的方法与他们沟通，同样也是能从他们身上得到满意回答的最有效方式。
 
@@ -108,9 +110,9 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 
 如果你决定向我们求助，当然你也不希望被视为失败者，更不愿成为失败者中的一员。能立刻得到快速并有效答案的最好方法，就是像赢家那样提问 -- 聪明、自信、有解决问题的思路，只是偶尔在特定的问题上需要获得一点帮助。
 
-（欢迎对本指南提出改进意见。你可以 email 你的建议至 [esr@thyrsus.com](esr@thyrsus.com) 或 [respond-auto@linuxmafia.com](respond-auto@linuxmafia.com)。然而请注意，本文并非[网络礼节](http://www.ietf.org/rfc/rfc1855.txt)的通用指南，而我们通常会拒绝无助于在技术论坛得到有用答案的建议。）
+> （欢迎对本指南提出改进意见。你可以 email 你的建议至 [esr@thyrsus.com](esr@thyrsus.com) 或 [respond-auto@linuxmafia.com](respond-auto@linuxmafia.com)。然而请注意，本文并非[网络礼节](https://www.ietf.org/rfc/rfc1855.txt)的通用指南，而我们通常会拒绝无助于在技术论坛得到有用答案的建议。）
 
-# 3\. 在提问之前
+# 3. 在提问之前
 
 在你准备要通过电子邮件、新闻群组或者聊天室提出技术问题前，请先做到以下事情：
 
@@ -124,7 +126,7 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 
 当你提出问题的时候，请先表明你已经做了上述的努力；这将有助于树立你并不是一个不劳而获且浪费别人的时间的提问者。如果你能一并表达在做了上述努力的过程中所**_学到_**的东西会更好，因为我们更乐于回答那些表现出能从答案中学习的人的问题。
 
-运用某些策略，比如先用Google搜索你所遇到的各种错误信息（既搜索[Google论坛](http://groups.google.com/)，也搜索网页），这样很可能直接就找到了能解决问题的文件或邮件列表线索。即使没有结果，在邮件列表或新闻组寻求帮助时加上一句 `我在Google中搜过下列句子但没有找到什么有用的东西` 也是件好事，即使它只是表明了搜索引擎不能提供哪些帮助。这么做（加上搜索过的字串）也让遇到相似问题的其他人能被搜索引擎引导到你的提问来。
+运用某些策略，比如先用Google搜索你所遇到的各种错误信息（既搜索[Google论坛](https://groups.google.com/)，也搜索网页），这样很可能直接就找到了能解决问题的文件或邮件列表线索。即使没有结果，在邮件列表或新闻组寻求帮助时加上一句 `我在Google中搜过下列句子但没有找到什么有用的东西` 也是件好事，即使它只是表明了搜索引擎不能提供哪些帮助。这么做（加上搜索过的字串）也让遇到相似问题的其他人能被搜索引擎引导到你的提问来。
 
 别着急，不要指望几秒钟的Google搜索就能解决一个复杂的问题。在向专家求助之前，再阅读一下常见问题文件（FAQ）、放轻松、坐舒服一些，再花点时间思考一下这个问题。相信我们，他们能从你的提问看出你做了多少阅读与思考，如果你是有备而来，将更有可能得到解答。不要将所有问题一股脑拋出，只因你的第一次搜索没有找到答案（或者找到太多答案）。
 
@@ -136,7 +138,7 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 
 另一方面，表明你愿意在找答案的过程中做点什么是一个非常好的开端。`谁能给点提示？`、`我的这个例子里缺了什么？`以及`我应该检查什么地方`比`请把我需要的确切的过程贴出来`更容易得到答复。因为你表现出只要有人能指个正确方向，你就有完成它的能力和决心。
 
-# 4\. 当你提问时
+# 4. 当你提问时
 
 ## 4.1. 慎选提问的论坛
 
@@ -171,7 +173,7 @@ Copyleft 2001 by D.H.Grand(nOBODY/Ginux), 2010 by Gasolin, 2015 by Ryan Wu
 
 因为 Google 索引是即时的，在看 Stack Exchange 之前先在 Google 搜索。有很高的机率某人已经问了一个类似的问题，而且 Stack Exchange 网站们往往会是搜索结果中最前面几个。如果你在 Google 上没有找到任何答案，你再到特定相关主题的网站去找。用标签（Tag）搜索能让你更缩小你的搜索结果。
 
-Stack Exchange 已经成长到[超过一百个网站](http://stackexchange.com/sites)，以下是最常用的几个站：
+Stack Exchange 已经成长到[超过一百个网站](https://stackexchange.com/sites)，以下是最常用的几个站：
 
 - Super User 是问一些通用的电脑问题，如果你的问题跟代码或是写程序无关，只是一些网络连线之类的，请到这里。
 - Stack Overflow 是问写程序有关的问题。
@@ -228,7 +230,7 @@ Stack Exchange 已经成长到[超过一百个网站](http://stackexchange.com/s
 
 ## 4.6. 使问题容易回复
 
-以`请将你的回复寄到……`来结束你的问题多半会使你得不到回答。如果你觉得花几秒钟在邮件客户端设置一下回复地址都麻烦，我们也觉得花几秒钟思考你的问题更麻烦。如果你的邮件程序不支持这样做，[换个好点的](http://linuxmafia.com/faq/Mail/muas.html)；如果是操作系统不支持这种邮件程序，也换个好点的。
+以`请将你的回复寄到……`来结束你的问题多半会使你得不到回答。如果你觉得花几秒钟在邮件客户端设置一下回复地址都麻烦，我们也觉得花几秒钟思考你的问题更麻烦。如果你的邮件程序不支持这样做，[换个好点的](https://linuxmafia.com/faq/Mail/muas.html)；如果是操作系统不支持这种邮件程序，也换个好点的。
 
 在论坛，要求通过电子邮件回复是非常无礼的，除非你相信回复的信息可能比较敏感（而且有人会为了某些未知的原因，只让你而不是整个论坛知道答案）。如果你只是想在有人回复讨论串时得到电子邮件提醒，可以要求网页论坛发送给你。几乎所有论坛都支持诸如`追踪此讨论串`、`有回复时发送邮件提醒`等功能。
 
@@ -238,9 +240,9 @@ Stack Exchange 已经成长到[超过一百个网站](http://stackexchange.com/s
 
 正确的拼字、标点符号和大小写是很重要的。一般来说，如果你觉得这样做很麻烦，不想在乎这些，那我们也觉得麻烦，不想在乎你的提问。花点额外的精力斟酌一下字句，用不着太僵硬与正式 -- 事实上，黑客文化很看重能准确地使用非正式、俚语和幽默的语句。但它**_必须很_**准确，而且有迹象表明你是在思考和关注问题。
 
-正确地拼写、使用标点和大小写，不要将`its`混淆为`it's`，`loose`搞成`lose`或者将`discrete`弄成`discreet`。不要**全部用大写**，这会被视为无礼的大声嚷嚷（全部小写也好不到哪去，因为不易阅读。[Alan Cox](http://en.wikipedia.org/wiki/Alan_Cox)也许可以这样做，但你不行。）
+正确地拼写、使用标点和大小写，不要将`its`混淆为`it's`，`loose`搞成`lose`或者将`discrete`弄成`discreet`。不要**全部用大写**，这会被视为无礼的大声嚷嚷（全部小写也好不到哪去，因为不易阅读。[Alan Cox](https://en.wikipedia.org/wiki/Alan_Cox)也许可以这样做，但你不行。）
 
-更白话的说，如果你写得像是个半文盲\[译注：[小白](http://zh.wikipedia.org/zh-tw/小白)\]），那多半得不到理睬。也不要使用即时通讯中的简写或[火星文](http://zh.wikipedia.org/zh-tw/火星文)，如将`的`简化为`ㄉ`会使你看起来像一个为了少打几个键而省字的小白。更糟的是，如果像个小孩似地鬼画符那绝对是在找死，可以肯定没人会理你（或者最多是给你一大堆指责与挖苦）。
+更白话的说，如果你写得像是个半文盲\[译注：[小白](https://zh.wikipedia.org/zh-tw/小白)\]），那多半得不到理睬。也不要使用即时通讯中的简写或[火星文](https://zh.wikipedia.org/zh-tw/火星文)，如将`的`简化为`ㄉ`会使你看起来像一个为了少打几个键而省字的小白。更糟的是，如果像个小孩似地鬼画符那绝对是在找死，可以肯定没人会理你（或者最多是给你一大堆指责与挖苦）。
 
 如果在使用非母语的论坛提问，你可以犯点拼写和语法上的小错，但决不能在思考上马虎（没错，我们通常能弄清两者的分别）。同时，除非你知道回复者使用的语言，否则请使用英语书写。繁忙的黑客一般会直接删除用他们看不懂语言写的消息。在网络上英语是通用语言，用英语书写可以将你的问题在尚未被阅读就被直接删除的可能性降到最低。
 
@@ -266,7 +268,7 @@ Stack Exchange 已经成长到[超过一百个网站](http://stackexchange.com/s
 
 如果你人为地将问题搞得难以阅读，它多半会被忽略，人们更愿读易懂的问题，所以：
 
-- 使用纯文字而不是HTML ([关闭HTML](http://archive.birdhouse.org/etc/evilmail.html)并不难）
+- 使用纯文字而不是HTML ([关闭HTML](https://archive.birdhouse.org/etc/evilmail.html)并不难）
 - 使用MIME附件通常是可以的，前提是真正有内容（譬如附带的源代码或patch），而不仅仅是邮件程序生成的模板（譬如只是信件内容的拷贝）。
 - 不要发送一段文字只是单行句子但多次断行的邮件（这使得回复部分内容非常困难）。设想你的读者是在80个字符宽的终端机上阅读邮件，最好设置你的断行点小于80字。
 - 但是，也**_不要_**用任何固定断行资料（譬如日志档案拷贝或会话记录）。档案应该原样包含，让回复者有信心他们看到的是和你看到的一样的东西。
@@ -290,7 +292,7 @@ Stack Exchange 已经成长到[超过一百个网站](http://stackexchange.com/s
 
 以上几点中，当你报告的是你认为可能在代码中的问题时，给黑客一个可以重现你的问题的环境尤其重要。当你这么做时，你得到有效的回答的机会和速度都会大大的提升。
 
-[Simon Tatham](http://www.chiark.greenend.org.uk/~sgtatham/)写过一篇名为《[如何有效的报告Bug](http://www.chiark.greenend.org.uk/~sgtatham/bugs-tw.html)》的出色文章。强力推荐你也读一读。
+[Simon Tatham](https://www.chiark.greenend.org.uk/~sgtatham/)写过一篇名为《[如何有效的报告Bug](https://www.chiark.greenend.org.uk/~sgtatham/bugs-tw.html)》的出色文章。强力推荐你也读一读。
 
 ## 4.10. 话不在多而在精
 
@@ -396,7 +398,7 @@ Stack Exchange 已经成长到[超过一百个网站](http://stackexchange.com/s
 
 其次：由于这样问是画蛇添足，黑客们会很厌烦你 -- 而且通常会用逻辑上正确，但毫无意义的回答来表示他们的蔑视， 例如：`没错，有人能帮你`或者`不，没答案`。
 
-一般来说，避免用 `是或否`、`对或错`、`有或没有`类型的问句，除非你想得到[是或否类型的回答](http://homepage.ntlworld.com./jonathan.deboynepollard/FGA/questions-with-yes-or-no-answers.html)。
+一般来说，避免用 `是或否`、`对或错`、`有或没有`类型的问句，除非你想得到[是或否类型的回答](https://homepage.ntlworld.com./jonathan.deboynepollard/FGA/questions-with-yes-or-no-answers.html)。
 
 ## 4.21. 即使你很急也不要在标题写`紧急`
 
@@ -436,13 +438,13 @@ Stack Exchange 已经成长到[超过一百个网站](http://stackexchange.com/s
 
 在黑客中，这种良好的后继行动实际上比传统的礼节更为重要，也是你如何透过善待他人而赢得声誉的方式，这是非常有价值的资产。
 
-# 5\. 如何解读答案
+# 5. 如何解读答案
 
 ## 5.1. RTFM和STFW：如何知道你已完全搞砸了
 
 有一个古老而神圣的传统：如果你收到`RTFM （Read The Fucking Manual）`的回应，回答者认为你**应该去读他妈的手册**。当然，基本上他是对的，你应该去读一读。
 
-RTFM 有一个年轻的亲戚。如果你收到`STFW（Search The Fucking Web）`的回应，回答者认为你**应该到他妈的网上搜索**过了。那人多半也是对的，去搜索一下吧。（更温和一点的说法是 **[Google是你的朋友](http://lmgtfy.com/)**！）
+RTFM 有一个年轻的亲戚。如果你收到`STFW（Search The Fucking Web）`的回应，回答者认为你**应该到他妈的网上搜索**过了。那人多半也是对的，去搜索一下吧。（更温和一点的说法是 **[Google是你的朋友](https://lmgtfy.com/)**！）
 
 在论坛，你也可能被要求去爬爬论坛的旧文。事实上，有人甚至可能热心地为你提供以前解决此问题的讨论串。但不要依赖这种关照，提问前应该先搜索一下旧文。
 
@@ -471,7 +473,7 @@ RTFM 有一个年轻的亲戚。如果你收到`STFW（Search The Fucking Web）
 
 在下一节，我们会谈到另一个问题，当**_你_**行为不当时所会受到的`冒犯`。
 
-# 6\. 如何避免扮演失败者
+# 6. 如何避免扮演失败者
 
 在黑客社区的论坛中有那么几次你可能会搞砸 -- 以本指南所描述到的或类似的方式。而你会在公开场合中被告知你是如何搞砸的，也许攻击的言语中还会带点夹七夹八的颜色。
 
@@ -493,7 +495,7 @@ RTFM 有一个年轻的亲戚。如果你收到`STFW（Search The Fucking Web）
 
 也别让自己卷入口水战，最好不要理睬大多数的口水战 -- 当然，是在你检验它们只是口水战，而并未指出你有搞砸的地方，且也没有巧妙地将问题真正的答案藏于其后（这也是有可能的）。
 
-# 7\. 不该问的问题
+# 7. 不该问的问题
 
 以下是几个经典蠢问题，以及黑客没回答时心中所想的：
 
@@ -501,7 +503,7 @@ RTFM 有一个年轻的亲戚。如果你收到`STFW（Search The Fucking Web）
 
 > 问题：我能在哪找到 X 程序或 X 资源？
 
-回答：就在我找到它的地方啊，白痴 -- 搜索引擎的那一头。天哪！难道还有人不会用 [Google](http://www.google.com) 吗？
+回答：就在我找到它的地方啊，白痴 -- 搜索引擎的那一头。天哪！难道还有人不会用 [Google](https://www.google.com) 吗？
 
 > 问题：我怎样用 X 做 Y？
 
@@ -535,7 +537,7 @@ RTFM 有一个年轻的亲戚。如果你收到`STFW（Search The Fucking Web）
 
 > 问题：我在安装 Linux（或者 X ）时有问题，你能帮我吗？
 
-回答：不能，我只有亲自在你的电脑上动手才能找到毛病。还是去找你当地的 Linux 使用群组者寻求实际的指导吧（你能在[这儿](http://www.linux.org/groups/index.html)找到使用者群组的清单）。
+回答：不能，我只有亲自在你的电脑上动手才能找到毛病。还是去找你当地的 Linux 使用群组者寻求实际的指导吧（你能在[这儿](https://www.linux.org/groups/index.html)找到使用者群组的清单）。
 
 注意：如果安装问题与某 Linux 的发行版有关，在它的邮件列表、论坛或本地使用者群组中提问也许是恰当的。此时，应描述问题的准确细节。在此之前，先用 `Linux` 和**_所有_**被怀疑的硬件作关键词仔细搜索。
 
@@ -543,7 +545,7 @@ RTFM 有一个年轻的亲戚。如果你收到`STFW（Search The Fucking Web）
 
 回答：想要这样做，说明了你是个卑鄙小人；想找个黑客帮你，说明你是个白痴！
 
-# 8\. 好问题与蠢问题
+# 8. 好问题与蠢问题
 
 最后，我将透过举一些例子，来说明怎样聪明的提问；同一个问题的两种问法被放在一起，一种是愚蠢的，另一种才是明智的。
 
@@ -593,7 +595,7 @@ RTFM 有一个年轻的亲戚。如果你收到`STFW（Search The Fucking Web）
 
 黑客从某种角度来说是拥有丰富知识但缺乏人情味的家伙；我相信他是对的，如果我**_像_**个乞讨者那样提问，不论我是谁，一定会惹恼某些人或者被他们忽视。他建议我记下这件事，这直接导致了本指南的出现。
 
-# 9\. 如果得不到回答
+# 9. 如果得不到回答
 
 如果仍得不到回答，请不要以为我们觉得无法帮助你。有时只是看到你问题的人不知道答案罢了。没有回应不代表你被忽视，虽然不可否认这种差别很难区分。
 
@@ -607,7 +609,7 @@ RTFM 有一个年轻的亲戚。如果你收到`STFW（Search The Fucking Web）
 
 对像是 Linux 这种大众化的软件，每个开发者至少会对应到上万名使用者。根本不可能由一个人来处理来自上万名使用者的求助电话。要知道，即使你要为这些协助付费，和你所购买的同类软件相比，你所付出的也是微不足道的（通常封闭源代码软件的技术支持费用比开放源代码软件的要高得多，且内容也没那么丰富）。
 
-# 10\. 如何更好地回答问题
+# 10. 如何更好地回答问题
 
 **_态度和善一点_**。问题带来的压力常使人显得无礼或愚蠢，其实并不是这样。
 
@@ -629,14 +631,14 @@ RTFM 有一个年轻的亲戚。如果你收到`STFW（Search The Fucking Web）
 
 如果你是在研究一番后才做出的回答，**_展现你的技巧而不是直接端出结果_**。毕竟`授人以鱼不如授人以渔`。
 
-# 11\. 相关资源
+# 11. 相关资源
 
-如果你需要个人电脑、Unix 系统和网络如何运作的基础知识，参阅[Unix系统和网络基本原理](http://en.tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/)。
+如果你需要个人电脑、Unix 系统和网络如何运作的基础知识，参阅[Unix系统和网络基本原理](https://en.tldp.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/)。
 
-当你发布软件或补丁时，试着按[软件发布实践](http://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html)操作。
+当你发布软件或补丁时，试着按[软件发布实践](https://en.tldp.org/HOWTO/Software-Release-Practice-HOWTO/index.html)操作。
 
-# 12\. 鸣谢
+# 12. 鸣谢
 
 Evelyn Mitchel贡献了一些愚蠢问题例子并启发了编写`如何更好地回答问题`这一节， Mikhail Ramendik贡献了一些特别有价值的建议和改进。
 
-转自：[网络收集](http://127.0.0.1:43110/gfwtalk.bit/?Topic:36_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ)
+转自：[网络收集](https://127.0.0.1:43110/gfwtalk.bit/?Topic:36_13Z7XxTa7JuFat3KzzMWu3onwM6biLuurJ)

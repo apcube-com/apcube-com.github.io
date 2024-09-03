@@ -21,39 +21,39 @@ Teamviewer 远程桌面的确不错，但如果网速慢的时候，就远程不
 1. teamviewer VPN 拨号后，得到虚拟 IP（主端为虚拟 IPA，拨号端为IPB），一般是 7.X.X.X, 以7开头的IP段
 2. 再通过 windows 自带的 VPN 服务，第二次拨号，对 IPA 进行 VPN 拨虚，分配公司 IP 段（10.10.10.X），这样，通过第二次拨号，拨号端就有了内网IP。
 
-![](images/sb1f59gtly.png)
+![](/assets/images/sb1f59gtly.png)
 
 **步骤：**
 
 1. 在公司电脑上与拨号电脑上都安装 teamviewer，并选择 VPN 模块
 
-![](images/k5ngun7u0u.png)
+![](/assets/images/k5ngun7u0u.png)
 
 2.在公司电脑上设置 windows 的 VPN 服务
 
 a.开启服务 Routing and Remote Access.
 
-![](images/8f2xqvowlz.png)
+![](/assets/images/8f2xqvowlz.png)
 
 b.开启 VPN 服务
 
-![](images/z286vn8hqz.png)
+![](/assets/images/z286vn8hqz.png)
 
-![](images/4nyit5i107.png)
+![](/assets/images/4nyit5i107.png)
 
 3.第三步开始是在拨号电脑上操作
 
 a.Teamviewer 拨号时，选择 VPN
 
-![](images/ntgr2l7blw.png)
+![](/assets/images/ntgr2l7blw.png)
 
 b.拨上后，得到虚拟 IP，如下面的 7.236.34.213
 
-![](images/4yj9g9sbgw.png)
+![](/assets/images/4yj9g9sbgw.png)
 
 4.第四步，第二次拨号，在拨号机上新建 VPN 连接，配置如下：
 
-![](images/j2i7i55i1t.png)
+![](/assets/images/j2i7i55i1t.png)
 
 注意：TCP/IP 高级设置时：“在远程网络上使用默认网关不要点选”
 

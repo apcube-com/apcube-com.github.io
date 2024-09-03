@@ -18,14 +18,14 @@ yum update -y
 
 2，安装 yarn
 
-```
+```bash
 curl --silent --location https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
 yum install yarn
 ```
 
 3，安装 node，直接下载可执行文件，不需要源码安装
 
-```
+```bash
 tar xzf node-v10.13.0-linux-x64.tar.gz
 mv node-v10.13.0-linux-x64 /usr/local/nodejs
 #（安装 yarn 时会安装 node 0.6.4 版）
@@ -37,13 +37,13 @@ ln -s /usr/local/nodejs/bin/npm /usr/bin/npm
 
 4，安装 ghost-cli
 
-```
+```bash
 yarn global add ghost-cli@latest
 ```
 
 5，添加一个有 sodu 权限的用户
 
-```
+```bash
 adduser oops
 passwd oops
 usermod -aG wheel oops
@@ -51,13 +51,13 @@ usermod -aG wheel oops
 
 6，切换用户
 
-```
+```bash
 su - oops
 ```
 
 7，新建目录及设置权限
 
-```
+```bash
 sudo mkdir -p /home/wwwroot/ghost
 sudo chown oops.oops -R /home/wwwroot/ghost
 sudo chmod 775 /home/wwwroot/ghost
@@ -66,7 +66,7 @@ cd /home/wwwroot/ghost
 
 8，安装 ghost
 
-```
+```bash
 ghost install
 ```
 
@@ -85,7 +85,7 @@ location / {
 
 10，启动 ghost
 
-```
+```bash
 #***换成你的域名，aaa.com 就是 aaa-com
 systemctl start ghost_***
 systemctl status ghost_***
