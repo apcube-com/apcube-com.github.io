@@ -5,7 +5,8 @@ categories:
   - "sber-us"
 tags: 
   - "sber"
-coverImage: "/assets/images/9U5A9156-19.jpg"
+image:
+  path: "/assets/images/9U5A9156-19.jpg"
 ---
 
 2015.12.31 ♥
