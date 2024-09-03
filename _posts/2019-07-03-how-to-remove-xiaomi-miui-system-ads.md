@@ -10,7 +10,7 @@ tags:
   - "广告"
 ---
 
-![miui revoke msa authorization](images/miui_revoke_msa_authorization.jpg)
+![miui revoke msa authorization](/assets/images/miui_revoke_msa_authorization.jpg)
 
 In the “Settings / Additional Settings / Authorization Revocation” field, revoke the privileges of sa msa ”and“ miuideamon ”applications. If it fails, try again.
 

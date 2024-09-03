@@ -183,9 +183,9 @@ shadowsocks 原本就不是为「加速网络」而生的项目，它的初衷�
 
 - [分组密码工作模式](https://zh.wikipedia.org/zh-cn/%E5%88%86%E7%BB%84%E5%AF%86%E7%A0%81%E5%B7%A5%E4%BD%9C%E6%A8%A1%E5%BC%8F)
 
-- [Streaming API to authenticated encryption](http://crypto.stackexchange.com/questions/6008/streaming-api-to-authenticated-encryption)
+- [Streaming API to authenticated encryption](https://crypto.stackexchange.com/questions/6008/streaming-api-to-authenticated-encryption)
 
-`除另有声明外，本博客文章均采用 [知识共享(Creative Commons) 署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/) 进行许可。`
+`除另有声明外，本博客文章均采用 [知识共享(Creative Commons) 署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](https://creativecommons.org/licenses/by-nc-sa/3.0/cn/) 进行许可。`
 
 > 本文转自： [https://blessing.studio/why-do-shadowsocks-deprecate-ota/](https://blessing.studio/why-do-shadowsocks-deprecate-ota/)
 
