@@ -15,7 +15,6 @@ tags:
   - "xfce"
 ---
 
-[TOC]
 
 ### 1. Installing GNOME-Desktop:
 
