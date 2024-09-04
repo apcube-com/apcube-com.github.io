@@ -121,7 +121,7 @@ comments:
   giscus:
     repo: doobom/only_comments # <gh-username>/<repo>
     repo_id: R_kgDOMsBjSg
-    category: "sber.us's comments"
+    category: forSberComments
     category_id: DIC_kwDOMsBjSs4CiKaR
     mapping:  # optional, default to 'pathname'
     strict:  # optional, default to '0'
