@@ -123,8 +123,8 @@ comments:
     repo_id: R_kgDOMsBjSg
     category: sber.us's comments
     category_id: DIC_kwDOMsBjSs4CiKaR
-    mapping: title # optional, default to 'pathname'
-    strict: 0# optional, default to '0'
+    mapping: pathname # optional, default to 'pathname'
+    strict: 0 # optional, default to '0'
     input_position: bottom # optional, default to 'bottom'
     lang: site.lang # optional, default to the value of `site.lang`
     reactions_enabled: 1 # optional, default to the value of `1`
