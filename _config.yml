@@ -124,10 +124,10 @@ comments:
     category: sber.us's comments
     category_id: DIC_kwDOMsBjSs4CiKaR
     mapping: title # optional, default to 'pathname'
-    strict: # optional, default to '0'
+    strict: 0# optional, default to '0'
     input_position: bottom # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    lang: site.lang # optional, default to the value of `site.lang`
+    reactions_enabled: 1 # optional, default to the value of `1`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
