@@ -1,20 +1,25 @@
 ---
 layout: default
 ---
-<div id="post-list" class="flex-grow-1 px-xl-1">
-    <article class="card-wrapper card">
+
+<div class="page-category">
+        <div class="col-md-8 offset-md-2 offset-md-right">
                 <h1>Author : {{ page.name }}</h1>
-                <img src="/assets/img/avatars/{{ page.avatar}}" width="112" height="112" alt="avatar" class="author-profile-img" />
+                <img src="/assets/img/avatars/{{ page.avatar}}" alt="{{author.name}}" width="112" height="112" alt="avatar" class="author-profile-img" />
                 <p>{{ page.bio }}</p>
 
-                <h2>Post by this author</h2>
-                {%- assign author_posts = site.posts
-                  | where: "author", page.username
-                -%}
-                {%- for post in author_posts -%}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                {%- endfor -%}
-
-    </article>
+        </div>
+  <h2>Post by this author</h2>
+  <ul class="content ps-0">
+    {%- assign author_posts = site.posts
+        | where: "author", page.username
+    -%}
+    {%- for post in author_posts -%}
+      <li class="d-flex justify-content-between px-md-3">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="dash flex-grow-1"></span>
+        {% include datetime.html date=post.date class='text-muted small text-nowrap' lang=lang %}
+      </li>
+    {% endfor %}
+  </ul>
 </div>
-
