@@ -4,11 +4,11 @@ layout: page
 {% include lang.html %}
 
 <div class="page-category" align="center">
-    <img src="/assets/img/avatars/{{ page.avatar}}" alt="{{author.name}}" width="112" height="112" alt="avatar" class="rounded-circle" />
+    <img src="/assets/img/avatars/{{ page.avatar}}" alt="{{page.name}}" width="112" height="112" alt="avatar" class="rounded-circle" />
     <h1>{{ page.name }}</h1>
     <p>{{ page.bio }}</p>
     <p class="profile-links">
-        {% for network in author.social %}
+        {% for network in page.social %}
             <a class="social-link" href="{{ network.url }}" target="_blank"><i class="fab fa-{{ network.title }} fa-fw"></i></a>
         {% endfor %}
     </p>
