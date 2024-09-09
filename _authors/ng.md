@@ -24,9 +24,9 @@ social:
     #- title: "medium"
     #  url: "https://medium.com/johndoe"
     - title: "telegram"
-      url: "https://telegram.com/doobom"
-    #- title: "dribbble"
-    #  url: "https://dribbble.com/johndoe"
+      url: "https://t.me/doobom"
+    - title: "threads"
+      url: "https://www.threads.net/@apcu.be"
     #- title: "flickr"
     #  url: "https://flickr.com/johndoe"
 ---

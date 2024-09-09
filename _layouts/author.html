@@ -8,15 +8,16 @@ layout: page
     <h1>{{ page.name }}</h1>
     <p>{{ page.bio }}</p>
     <p class="profile-links">
-        {% if page.email %}
-          {% assign email = page.email | split: '@' %}
-          {%- capture url -%}
-            javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-          {%- endcapture -%}
-        {% endif %}
         {% for network in page.social %}
             <a class="social-link" href="{{ network.url }}" target="_blank"><i class="fab fa-{{ network.title }} fa-fw"></i></a>
         {% endfor %}
+        {% if page.email %}
+        <a class="social-link" href="
+          {% assign email = page.email | split: '@' %}
+          {%- capture url -%}
+            javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+          {%- endcapture -%}" aria-label="email"><i class="fas fa-envelope fa-fw"></i></a>
+        {% endif %}
     </p>
     <h2>Post by this author</h2>
 </div>
