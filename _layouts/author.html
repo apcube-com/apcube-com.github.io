@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<div class="card">
-        <div class="col-md-8 offset-md-2 offset-md-right">
+<div id="post-list" class="flex-grow-1 px-xl-1">
+    <article class="card-wrapper card">
                 <h1>Author : {{ page.name }}</h1>
-                <img src="/assets/img/avatars/{{ page.avatar}}" alt="{{author.name}}" class="author-profile-img" />
+                <img src="/assets/img/avatars/{{ page.avatar}}" width="112" height="112" alt="avatar" class="author-profile-img" />
                 <p>{{ page.bio }}</p>
 
                 <h2>Post by this author</h2>
@@ -14,5 +14,7 @@ layout: default
                 {%- for post in author_posts -%}
                 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {%- endfor -%}
-         </div>
-    </div>
+
+    </article>
+</div>
+
