@@ -1,14 +1,13 @@
 ---
-layout: default
+layout: page
 ---
+{% include lang.html %}
 
 <div class="page-category">
-        <div class="col-md-8 offset-md-2 offset-md-right">
                 <h1>Author : {{ page.name }}</h1>
                 <img src="/assets/img/avatars/{{ page.avatar}}" alt="{{author.name}}" width="112" height="112" alt="avatar" class="author-profile-img" />
                 <p>{{ page.bio }}</p>
 
-        </div>
   <h2>Post by this author</h2>
   <ul class="content ps-0">
     {%- assign author_posts = site.posts

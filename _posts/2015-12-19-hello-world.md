@@ -1,6 +1,7 @@
 ---
 title: "世界，您好！"
 date: "2015-12-19"
+author: ng
 categories: 
   - "sber-us"
 tags: 
