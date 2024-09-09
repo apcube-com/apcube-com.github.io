@@ -197,7 +197,7 @@ defaults:
       type: authors
     values:
       layout: author
-      permalink: /authors/:slug
+      permalink: /authors/:slug/
 
 sass:
   style: compressed
