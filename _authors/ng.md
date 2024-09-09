@@ -16,7 +16,7 @@ social:
     #- title: "facebook"
     #  url: "https://www.facebook.com/johndoe"
     - title: "twitter"
-      url: "https://www.twitter.com/d8boom"
+      url: "https://x.com/d8boom"
     #- title: "behance"
     #  url: "https://behance.com/johndoe"
     #- title: "instagram"
