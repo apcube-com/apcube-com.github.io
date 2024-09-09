@@ -1,6 +1,7 @@
 ---
 name: doobom
 username: ng
+slug: ng
 bio: "Write a great bug."
 site: http://doobom.me
 avatar: ng.jpeg
