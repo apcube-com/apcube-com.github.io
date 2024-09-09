@@ -8,7 +8,7 @@ layout: page
     <h1>{{ page.name }}</h1>
     <p>{{ page.bio }}</p>
     <p class="profile-links">
-        {% for network in page.social %}
+        {% for network in authors.{{page.username}}.social %}
             <a class="social-link" href="{{ network.url }}" target="_blank"><i class="fab fa-{{ network.title }} fa-fw"></i></a>
         {% endfor %}
     </p>
