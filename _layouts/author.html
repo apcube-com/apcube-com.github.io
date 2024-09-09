@@ -3,12 +3,11 @@ layout: page
 ---
 {% include lang.html %}
 
-<div class="page-category">
-                <h1>Author : {{ page.name }}</h1>
-                <img src="/assets/img/avatars/{{ page.avatar}}" alt="{{author.name}}" width="112" height="112" alt="avatar" class="author-profile-img" />
-                <p>{{ page.bio }}</p>
-
-  <h2>Post by this author</h2>
+<div class="page-category" align="center">
+    <img src="/assets/img/avatars/{{ page.avatar}}" alt="{{author.name}}" width="112" height="112" alt="avatar" class="rounded-circle" />
+    <h1>{{ page.name }}</h1>
+    <p>{{ page.bio }}</p>
+    <h2>Post by this author</h2>
 </div>
 
 {% assign df_strftime_m = site.data.locales[lang].df.archives.strftime | default: '/ %m' %}
