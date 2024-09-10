@@ -196,7 +196,7 @@ defaults:
       permalink: /:title/
   - scope:
       path: _authors
-      type: authors
+      type: archives
     values:
       layout: author
       permalink: /authors/:slug/
