@@ -48,21 +48,9 @@ layout: default
           {% assign card_body_col = '12' %}
 
           {% if post.image %}
-            {% assign src = post.image.path | default: post.image %}
-            {% unless src contains '//' %}
-              {% assign src = post.media_subpath | append: '/' | append: src | replace: '//', '/' %}
-            {% endunless %}
-
-            {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
-
-            {% assign lqip = null %}
-
-            {% if post.image.lqip %}
-              lqip="{{ post.image.lqip }}"
-            {% endif %}
 
             <div class="col-md-5">
-              <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
+              <img src="{{ post.image.path | default: post.image }}" alt="{{ post.image.alt | xml_escape | default: 'Preview Image' }}" {% if post.image.lqip %} {{ lqip }} {% endif %}>
             </div>
 
             {% assign card_body_col = '7' %}
