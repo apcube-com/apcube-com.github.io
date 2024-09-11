@@ -41,8 +41,7 @@ layout: default
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in site.posts %}
-  {% if post.categories contains page.catname %}
+  {% for post in site.posts | where: 'categories', page.catname %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
         {% assign card_body_col = '12' %}
@@ -107,7 +106,6 @@ layout: default
         </div>
       </a>
     </article>
-  {% endif %}
   {% endfor %}
 </div>
 <!-- #post-list -->
