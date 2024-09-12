@@ -8,7 +8,6 @@ refactor: true
 {% assign pinned = site.posts | where: 'pin', 'true' %}
 {% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 
-{{ default.size }}
 
 {% assign posts = '' | split: '' %}
 
@@ -27,31 +26,25 @@ refactor: true
 
 <!-- Get default posts -->
 
-{% assign posts = default | where_exp: 'item', 'item.categories contains page.catname' %}
+{% if page.catname %}
+  {% assign posts = default | where_exp: 'item', 'item.categories contains page.catname' %}
+{% else %}
 
-{% comment %}
+  {% assign default_beg = offset | minus: pinned.size %}
 
-{% assign default_beg = offset | minus: pinned.size %}
+  {% if default_beg < 0 %}
+    {% assign default_beg = 0 %}
+  {% endif %}
 
-{% if default_beg < 0 %}
-  {% assign default_beg = 0 %}
+  {% assign default_num = paginator.posts | size | minus: pinned_num %}
+  {% assign default_end = default_beg | plus: default_num | minus: 1 %}
+
+  {% if default_num > 0 %}
+    {% for i in (default_beg..default_end) %}
+      {% assign posts = posts | push: default[i] %}
+    {% endfor %}
+  {% endif %}
 {% endif %}
-
-{% assign default_num = paginator.posts | size | minus: pinned_num %}
-{% assign default_end = default_beg | plus: default_num | minus: 1 %}
-
-{% if default_num > 0 %}
-  {% for i in (default_beg..default_end) %}
-    {% assign posts = posts | push: default[i] %}
-  {% endfor %}
-{% endif %}
-
-{% endcomment %}
-
-{{ page.catname }}
-
-{{ posts.size }}
-
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
